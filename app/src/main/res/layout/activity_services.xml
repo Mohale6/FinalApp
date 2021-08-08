@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M-pesa transactions"
+        android:textStyle="bold"
+        android:id="@+id/menu_TV"
+        android:layout_marginTop="100dp"
+        android:textSize="34sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/checkingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_TV"
+        android:layout_alignStart="@+id/menu_TV"
+        android:layout_alignLeft="@+id/menu_TV"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/black"
+        android:minWidth="200dip"
+        android:text="Balences" />
+
+
+
+    <Button
+        android:text="SEND MONEY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:id="@+id/transferButton"
+        android:minWidth="200dip"
+        android:backgroundTint="@color/black"
+        android:layout_below="@+id/checkingButton"
+        android:layout_alignLeft="@+id/checkingButton"
+        android:layout_alignStart="@+id/checkingButton" />
+
+
+    <Button
+        android:text="LOGOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:id="@+id/logout"
+        android:minWidth="200dip"
+        android:backgroundTint="@color/black"
+        android:layout_below="@+id/transferButton"
+        android:layout_alignLeft="@+id/transferButton"
+        android:layout_alignStart="@+id/transferButton" />
+
+
+</RelativeLayout>
